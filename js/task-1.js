@@ -5,9 +5,6 @@ function slugify(title) {
   const words = text.split(' ');
   const slug = words.join('-');
   return slug;
-  //інший варіант
-  return title.toLowerCase().split(' ').join('-');
-  //
 }
 
 console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
